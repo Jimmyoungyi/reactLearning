@@ -1,4 +1,39 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: scroll;
+}
+.search-bar{
+  text-align: center;
+  margin: 20px;
+}
+.search-bar input{
+  width: 400px;
+  height: 20px;
+  border: solid 1px darkgray;
+}
+.video-detail{
+  float: left;
+  width: 56%;
+  padding: 0 7%;
+}
+.video-detail .ratio-box{
+  padding-top: 52%;
+  position: relative;
+}
+.video-detail .ratio-box iframe{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left: 0;
+}
+.video-list{
+  float: left;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+}
+.video-list li{
+  list-style: none;
 }
